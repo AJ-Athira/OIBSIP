@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Guide</title>
+    <link rel="stylesheet" href="oasis-task1.css">
+    <script src="https://kit.fontawesome.com/a8b79fb24e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logotutorial.png">
+            <h1>Futuro Guide</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#tutorial">Tutorial</a></li>
+                <i class="fa-solid fa-user"></i>
+                <li><a href="#registration">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-text">
+          
+
+            <h1><b>The world's largest selection of courses</b></h1>
+            <h2>Unlock Your Potential with Awesome Tutorial</h2>
+            <p>Explore high-quality courses designed for your success.</p>
+
+            <a href="#courses">Browse Courses</a>
+            
+        </div>
+    </section>
+    <section class="praise" id="praise">
+        <div class="praise-text">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-clock"></i>
+                    <p class="text"><b>Go to your own pase</b><br><br></p>
+                    <p>Enjoy learning for life time</p>
+                   
+                </li> 
+                <li>
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <p class="text"><b>Learn from industry experts</b><br><br></p>
+                    <p>select from top instructors around the world</p>
+
+                </li>   
+                <li>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <p class="text"><b>Find video courses on almost any topic</b><br><br></p>
+                    <p>Build the library for your career and personal growth</p></li>    
+                    
+                    
+            </ul>     
+
+    </section>
+
+    <section class="courses" id="courses">
+        <h2>Top Courses</h2>
+        <ul>
+            <li>
+                <img src="https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg" alt="Web Development Course">
+                <p><b>Course 1: Web Development</b></p>
+            </li>
+            <li>
+                <img src="https://codersera.com/blog/wp-content/uploads/2021/08/Data-Science-project-ideas-.jpeg" alt="Data Science Fundamentals Course">
+                <p><b>Course 2: Data Science Fundamentals</b></p>
+            </li>
+            <li>
+                <img src="https://core-solutions.in/images/core-BANNER-01-03.jpg" alt="Graphic Design for Beginners Course">
+                <p><b>Course 3: Graphic Design</b></p>
+                
+                
+            </li>
+           
+        </ul>
+    </section>
+
+    <section class="tutorial" id="tutorial">
+        <div class="tutorial-image">
+        <img src="https://digitallearning.eletsonline.com/wp-content/uploads/2018/01/Career-Choice.jpg"></div>
+        <div class="tutorial-text"><h2>Tutorial Section</h2>
+            <p>Get ready to embark on a journey of learning and discovery. Our tutorials are carefully crafted to provide you with the skills and knowledge you need to succeed.</p>
+            <button class="b1"onclick="scrollToRegistration()">I'm In</button>
+        </section></div>
+        
+        <section class="benefits">
+            <h2>Why Choose Awesome Tutorial?</h2>
+            <ul>
+                
+                <li><i class="fa-solid fa-chalkboard-user"></i>  High-quality courses taught by industry experts</li><br>
+                
+                <li><i class="fa-solid fa-graduation-cap"></i>  Interactive and engaging learning materials</li><br>
+                <li><i class="fa-regular fa-calendar"></i>  Flexible schedules to fit your lifestyle</li><br>
+                <li><i class="fa-solid fa-group-arrows-rotate"></i>   Access to a supportive community of learners</li>
+               
+            </ul>
+        </section>
+    <section class="registration" id="registration">
+        <h2>Register Now</h2>
+        <p>Unlock the full potential of your learning journey by registering now!</p>
+        <form action="#registration" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    
+
+    <footer class="footer-section">
+        <a href="#" target="_blank" class="social-icon1"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" class="social-icon2"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank" class="social-icon3"><i class="fab fa-instagram"></i></a>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <img src="logotutorial.png">
+    </footer>
+    
+
+    <script>
+        function scrollToRegistration() {
+            const registrationSection = document.getElementById("registration");
+            registrationSection.scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,263 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1eded;
+}
+
+header {
+  background-color: #fcf6f6;
+  padding: 1rem;
+  color: #422929;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px;;
+  border: 1px solid #ccc;
+}
+.fa-solid fa-user{
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 80px; 
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #463333;
+  padding: 10px;
+  margin: 0 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  width: 200px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #4CAF50;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('hero-bg.jpg');
+  background-size:contain;
+  color: #e6dbdb;
+  background-image: url('futuro2\ -\ Copy.jpg') ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(79, 50, 50); 
+  padding: 150px;
+  min-height: 160px;
+}
+
+.hero h2 {
+  margin-bottom: 0px;
+}
+
+.hero a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: brown;
+  color: #e3e4e2;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+  background-color: #333;
+}
+.praise-text{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+ 
+}
+.text{
+  display:inline;
+  margin-right:250px;
+  
+}
+.praise{
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(239, 237, 228);
+  border: 1px solid #ccc;
+  color:#422929
+}
+
+.praise ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.praise li {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+
+.courses {
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  
+}
+
+.courses ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.courses li {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.courses img {
+  width: 100%;
+  height:300px;
+  border-radius: 5px;
+}
+.tutorial{
+  text-align:center;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color: rgb(243, 214, 214);
+  border: 1px solid #ccc;
+   
+}
+.tutorial-image img{
+  max-width:300px;
+  height:auto;
+  margin-right:40px;
+  color:#e3e4e2
+  
+  
+}
+.b1:hover{
+  background-color: brown;
+  color: #e6dddd;
+}
+.b1{
+  border-radius:20px;
+  padding:10px 20px;
+}
+.benefits{
+ background-color:rgb(233, 225, 225); ;
+ border: 1px solid #ccc;
+ margin-bottom: 10px;
+  
+}
+
+
+.registration {
+  background-size:contain;
+  color: #e6dbdb;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIHJ-XOQxhhhJf2bElwPyVECcpwRWLi4Ds77J2U69j6LlaHmavvuYS-9i-pRKnr3tFew&usqp=CAU') ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(248, 240, 240); 
+  padding: 150px;
+  min-height: 160px;
+  
+  text-align: center;
+  padding: 2rem;
+  margin:right ;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  
+}
+
+.registration form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.registration label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registration input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.registration input[type="submit"]:hover {
+  background-color: #333;
+}
+
+.benefits {
+  text-align: center;
+  padding: 2rem;
+}
+
+.benefits ul {
+  list-style: none;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+}
+footer {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon {
+  color: #161515; 
+  font-size: 24px; 
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  color: red; 
+}
+.social-icon1
+{
+  color: #1d0dcb;
+}
+.social-icon2
+{
+  color: #10a2b5;
+}
+.social-icon3
+{
+  color: rgb(205, 24, 172);
+}
